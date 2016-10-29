@@ -12,38 +12,47 @@
 
 </head>
 
-<body class="wrapper" style="margin: 10px 20% 0 20%;">
+<body class="wrapper" style="max-width:940px;margin:0 auto;">
 
 	<nav style="display:block">
 		<h1> Multi-Sumo Project</h1>
-		<img style=" margin: 0 0 0 100px;" src="./images/multi-sumo-logo.jpg">
+		<img style=" margin: 0 0 0 20px;float:center" src="./images/multi-sumo-logo.jpg">
 	</nav>
 	<div id="page-content">
-		<h2> introduction </h2>
-		<div style="margin: 0 0 0 20px" class="info">
+		<h2> Introduction </h2>
+		<div style="margin: 0 0 0 20px;max-width:650px" class="info">
 		<p>
-			The project deals with the management, control, and operation of an unlimited number of Parrot Jumping Sumo<br>
-			, by one computer,called master, and a number of computers <b>ODROID</b> assr a obots number.
+			Multi-Sumo application enables control over unlimited number of Parrot Jumping
+			Sumo and manages operation of them, taking into consideration the various features 
+			and functionality of the Jumping Sumo.
 		</p>
 		<p>
-			The code is open source which exercised all the functionality needed to maintain,<br>
-			modify, and develop other needs related code.
+			The application’s code is an open source, provides to user easy-to-use API to
+			control over the Sumo, and easy maintenance and management.
 		</p>
 		<p>
-			Here you will find a guide to how to connect, run, and play the system, step by step,<br>
-			as well as the project file attached video documenting all stages step by step in real time, it is highly recommended to watch simultaneously.
+			Here you will find a guide of how to use the application, and start the system.
+			You can also find a video that shows and describes the functionality and usage of the App. 
+			<b>It’s highly recommended.</b>
 		</p>
 		</div>
-		<h2> More informations  </h2>
-		<div class="info" style="margin: 0 0 0 20px">
-			The project file There are two applications:<br>
-			<b>▪ The Sumo-client app:</b>
-			<p style="margin-left:20px">Is responsible for managing all of the system, the clients connection, and sending commands to each of them.<br>
-				This application includes UI , easy to use , and installed at master computer 
+		<h2> More information  </h2>
+		<div class="info" style="margin: 0 0 0 20px;max-width:650px">
+			The project directory contains two applications: <br>
+			<b>▪ Sumo-Master Application</b>
+			<p style="margin-left:20px">
+				The Sumo-Master application is intended to control and mange operation of the entire system, 
+				it also manages all of the clients connection and sends string commands to each of them.
+				This application includes easy to use UI, which must be downloaded and installed on the Master side.
+
 			</p>
-			<b>▪ The Sumo-master app:</b>
-			<p style="margin-left:20px">On the one hand, this app is responsible for managing the connection in front of the master, on the other hand, <br>
-				runs the front of the sumo connection connected to the specific client which is planted in it.
+			<b>▪ Sumo-Client Application</b>
+			<p style="margin-left:20px">On the one hand, this app is responsible for managing the connection 
+				The Sumo-Client application manages the connection between the clients and the Master
+				by sending connection requests to the Master.
+				It also responsible for connecting with the robot, by converting the received string commands 
+				(from the Master) to commands that can control over the robot, making him move, jump and rotate etc.  
+
 			</p>
 			
 		<h2> Project content  </h2>		
@@ -55,19 +64,19 @@
 		</div >
 		<h2> images  </h2>
 		<div class="info" style="margin: 0 0 0 20px">
-			<img style=" height:150px;width:30%; margin: 0 0 0 10px;" src="./images/system.jpg">
-			<img style=" height:150px;width:30%; margin: 0 0 0 10px;" src="./images/odroid.jpg">
-			<img style=" height:150px;width:30%; margin: 0 0 0 10px;" src="./images/master UI.png">
+			<img style=" height:120px;width:31%; margin: 0 0 0 10px;" src="./images/system.jpg">
+			<img style=" height:120px;width:31%; margin: 0 0 0 10px;" src="./images/master UI.png">
+			<img style=" height:120px;width:31%; margin: 0 0 0 10px;" src="./images/odroid.jpg">
 		</div>
 		<h2> Video  </h2>
 		<div class="info" style="margin: 0 0 0 20px">
-		<video width="500" height="350" controls>
+		<video width="650" height="420" controls>
 		  <source src="./video/multi-sumo video.mp4" type="video/mp4">
 		  <source src="movie.ogg" type="video/ogg">
 			Your browser does not support the video tag.
 			</video>
 		</div>
-		<h2> Connect Me  </h2>
+		<h2> Conatct Me: </h2>
 		<address tyle="margin: 0 0 0 20px">
 			created by <a href="mailto:hussen.abu.hamad@gmail.com">Hussen Abu Hamad</a>.<br> <br> <br> <br> <br> <br> <br> 
 
